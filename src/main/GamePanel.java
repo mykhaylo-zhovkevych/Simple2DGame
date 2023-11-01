@@ -7,6 +7,7 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 import Backgrounds.TileManager;
 import entity.Player;
+import object.SuperObject;
 
 public class GamePanel extends JPanel implements Runnable{
 
@@ -33,13 +34,15 @@ public class GamePanel extends JPanel implements Runnable{
 	
 	
 	
-	int FPS = 60;
+	int FPS = 90;
 	
 	TileManager begroundM = new TileManager(this);
 	keyhandler KeyH = new keyhandler();
 	Thread gameThread;
 	public CollisionChecker Checker = new CollisionChecker(this);
 	public Player player = new Player(this,KeyH);
+	public SuperObject Object_Key[] = new SuperObject[10]; // here is defined how much the objects(instances) can in the SuperObject be displayed.  
+	public AssetSetter aSetter = new AssetSetter(this); // this. means the gamepanel
 	
 	
 	
@@ -52,8 +55,14 @@ public class GamePanel extends JPanel implements Runnable{
 		
 		
 		
+	}
+	
+	public void setupObject() {
+		
+		aSetter.setObject();
 		
 	}
+	
 	public void startGameThread() {
 		
 		gameThread = new Thread(this);
@@ -98,10 +107,18 @@ public class GamePanel extends JPanel implements Runnable{
 		
 		Graphics2D g2 =(Graphics2D)g;
 		
+		//backgrounds
 		begroundM.draw(g2);
 		
+		//object
+		for (int i = 0; i < Object_Key.length; i++) {
+			if(Object_Key[i] != null) {
+				Object_Key[i].draw(g2, this);
+			}
+		}
+		//player
 		player.draw(g2);
-		
+		//
 		g2.dispose();// dispose of this graphics context and release any system resources that it is using.
 		
 		

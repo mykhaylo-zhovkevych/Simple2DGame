@@ -36,7 +36,7 @@ public class Player extends Entity {
 		
 		worldX = 1000;
 		worldY = 1000;
-		speed = 4;
+		speed = 3;
 		direction = "down";
 	}
 	public void getPlayerImage() {
@@ -102,7 +102,7 @@ public class Player extends Entity {
 				
 			}
 			spriteCounter++;
-			if(spriteCounter > 20) { // this third is like third FPS per second
+			if(spriteCounter > 45) { // this third is like third FPS per second
 				if(spriteNum == 1) {
 					spriteNum = 2;
 				}
