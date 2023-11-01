@@ -6,7 +6,7 @@ This project is a simple 2D game written in Java, designed for those who are new
 
 ## Game Description
 
-[Insert brief description of the game, e.g., a classic platformer, an endless runner, or a puzzle game.]
+So, in practice, this Simple2DGame can run on a wide variety of platforms as long as the necessary JVM is available and properly configured.
 
 ## Features
 
@@ -41,14 +41,6 @@ These steps will help you get the game running on your local machine:
 - Launch the game by running the main class.
 - Use the [Insert controls] to navigate and interact with the game.
 - Enjoy playing and aim for a high score!
-
-## Contributing
-
-[Include information on how others can contribute to the game project, if applicable.]
-
-## License
-
-[Specify the game's license, e.g., MIT License or your own custom license.]
 
 ## Acknowledgments
 
