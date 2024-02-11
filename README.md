@@ -1,11 +1,10 @@
 # Simple2DGame
 
 ## Overview
-
-This project is a simple 2D game written in Java, designed for those who are new to game development or want to explore the basics of creating a 2D game. This README provides a high-level overview of the project's structure and components without delving into the specific game logic.
+This project is a simple 2D game written in Java, designed for those who are new to game development or want to explore the basics of creating a 2D game. this Code can be used as self-learing tool for beginers.
+![Screenshot 2024-02-11 223947](https://github.com/mykhaylo-zhovkevych/Simple2DGame/assets/148889468/45104c19-1362-43a5-80e8-b7a6b008f632)
 
 ## Game Description
-
 So, in practice, this Simple2DGame can run on a wide variety of platforms as long as the necessary JVM is available and properly configured.
 
 ## Features
@@ -18,36 +17,6 @@ So, in practice, this Simple2DGame can run on a wide variety of platforms as lon
 
 ## Game Components
 
-The game is built with several key components:
-
-- **Main Game Loop**: [Briefly describe how the game loop works.]
-- **Player Character**: [Explain how the player character is represented in the game.]
-- **Enemies and Obstacles**: [Mention any code related to adversaries or obstacles.]
-- **Graphics and Assets**: [Explain how game graphics and assets are loaded and displayed.]
-- **Collision Detection**: [Briefly describe how collisions are detected in the game.]
-- **Scoring and Progression**: [Explain how scoring and progression are managed.]
-
 ## Getting Started
 
-These steps will help you get the game running on your local machine:
 
-1. [Insert instructions for setting up the development environment, if necessary.]
-2. Clone or download the game project from this repository.
-3. [Insert any specific setup or configuration instructions for the game.]
-4. Compile and run the game using your Java development environment.
-
-## Usage
-
-- Launch the game by running the main class.
-- Use the [Insert controls] to navigate and interact with the game.
-- Enjoy playing and aim for a high score!
-
-## Acknowledgments
-
-[Give credit to any third-party libraries, assets, or resources used in the game.]
-
-## Contact
-
-[Provide your contact information or a way for users to reach out if they have questions or feedback.]
-
-[Insert any additional sections or information relevant to your specific game project.]
